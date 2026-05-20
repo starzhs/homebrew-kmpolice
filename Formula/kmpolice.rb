@@ -5,11 +5,11 @@ class Kmpolice < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/starzhs/kmpolice/releases/download/v0.1.18/kmpolice-aarch64-apple-darwin.tar.gz"
-      sha256 "39052fadfd55d3447613f960450f52ec6bdb89c7634aad16e9df7cee2822994b"
+      url "https://github.com/starzhs/kmpolice/releases/download/v0.1.19/kmpolice-aarch64-apple-darwin.tar.gz"
+      sha256 "8358d725927013e1fd76a765b0e29b80bf38e29f051402b96444e19fed9b808a"
     else
-      url "https://github.com/starzhs/kmpolice/releases/download/v0.1.18/kmpolice-x86_64-apple-darwin.tar.gz"
-      sha256 "3f16738b52e386e2be480196f438a4dff00e19b1ee94a61353c4c5ca08a85417"
+      url "https://github.com/starzhs/kmpolice/releases/download/v0.1.19/kmpolice-x86_64-apple-darwin.tar.gz"
+      sha256 "9761589159f72f4412621b4ddef80280b950ac39c8853169aec0ed24b77ef3bb"
     end
   end
 
